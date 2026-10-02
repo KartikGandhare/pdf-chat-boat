@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+python-multipart
+pypdf
+chromadb
+google-genai
+python-dotenv
+pydantic
+requests
+langchain-text-splitters
+
