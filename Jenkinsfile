@@ -12,6 +12,13 @@ pipeline {
              }
             
         }
+        stage('Build Docker Images'){
+            steps{
+                sh 'docker build -t pdf-chat-boat-backend:test .'
+                sh 'docker build -t pdf-chat-boat-frontend:test -f frontend/Dockerfile .'
+
+            }
+        }
     }
 
 }
